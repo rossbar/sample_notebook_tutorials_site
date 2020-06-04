@@ -10,6 +10,8 @@ Welcome to numpy_tutorials_notebook_demo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   content/cs231_tutorial
+
 
 
 Indices and tables
