@@ -45,7 +45,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README']
 # -- Notebook execution options ---------------------------------------------
 
 # Valid options: "off", "force", "auto", and "cache"
-jupyter_execute_notebooks = "off"
+jupyter_execute_notebooks = "auto"
 
 
 # -- Options for HTML output -------------------------------------------------
