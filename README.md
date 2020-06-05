@@ -56,3 +56,16 @@ to try it out on the site:
 1. Add your notebook to the `content/` directory
 2. Update `content/requirements.txt` with the dependencies for your tutorial
 3. Update the `toctree` in `index.rst` to include your new entry
+4. Update the attribution section (below) to credit the original tutorial 
+   author.
+
+## Attribution
+
+ - The [cs231n][cs231] tutorial is by [@jcjohnson][jj]. The full tutorial in 
+   its original form is linked via [numpy.org][learn].
+ - The SVD tutorial is by [@melissawm][mwm]. The full tutorial is available
+   via the [tutorials page][np_tutorials] of the official NumPy documentation.
+
+[jj]: https://github.com/jcjohnson
+[mwm]: https://github.com/melissawm
+[np_tutorials]: https://numpy.org/devdocs/user/tutorials_index.html
