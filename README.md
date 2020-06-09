@@ -24,6 +24,14 @@ I grabbed [this CS231n tutorial][cs231] which is linked from [numpy.org][learn].
 [cs231]: https://cs231n.github.io/python-numpy-tutorial/#numpy 
 [learn]: https://numpy.org/learn/
 
+### Modifying tutorials
+
+The only modification made to the tutorial was to add a `raises-exception` tag
+to a single cell. This is a feature of `MyST-NB` to prevent the execution 
+kernel from halting when a cell in a notebook raises an expected exception
+(e.g. for demonstration purposes). Other features, such as hiding code cells,
+inputs, outputs, etc. are [available](https://myst-nb.readthedocs.io/en/latest/use/hiding.html).
+
 ## Generating the "site"
 
 Sphinx is configured with the appropriate extensions to execute the notebooks
