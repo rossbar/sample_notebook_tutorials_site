@@ -1,0 +1,28 @@
+# See: https://circleci.com/docs/2.0/language-python/
+
+version: 2
+jobs:
+  build:
+    working_directory: ~/repo
+    docker:
+      - image: circleci/python:3.8.2
+  
+  steps:
+    - checkout
+
+    - run:
+      name: install_dependencies
+      command: |
+        python3 -m venv venv
+        source venv/bin/activate
+        pip install -r requirements.txt
+        pip install -r content/requirements.txt
+
+    - run:
+      name: build_docs
+      command: |
+        source venv/bin/activate
+        make -e html
+
+    - store_artifacts:
+      path: _build/html
