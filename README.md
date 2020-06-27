@@ -15,6 +15,8 @@ mechanism based on Jupyter notebooks:
  * rST may present a barrier for some people who might otherwise be very
    interested in contributing tutorial material.
 
+This repo also serves as a test-bed for various workflow components.
+
 ## Example tutorial
 
 To demonstrate the auto-generation of web content from Jupyter notebook source
