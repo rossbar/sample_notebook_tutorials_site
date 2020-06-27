@@ -12,6 +12,7 @@ Welcome to numpy_tutorials_notebook_demo's documentation!
 
    content/cs231_tutorial
    content/tutorial-svd
+   content/how_to
 
 
 
